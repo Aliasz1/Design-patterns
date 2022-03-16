@@ -1,6 +1,6 @@
 package StrategyPattern;
 
-public class move implements HumanInterface{
+public class Move implements HumanInterface{
     public Human walk(Human user,int x, int y, int z){
         user.x += x;
         user.y += y;
