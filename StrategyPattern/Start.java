@@ -5,8 +5,8 @@ public class Start{
 
         Human user = new Human();
         Context context = new Context(new Move());
-        user = context.goMove(user, 1, 2, 3);
-        user = context.goMove(user, 10, 22, 35);
-        user = context.goMove(user, -1, -30, 0);
+        user = context.goMove(user, 1, 3);
+        user = context.goJump(user, 10);
+        user = context.goMove(user, -1, 0);
     }
 }
